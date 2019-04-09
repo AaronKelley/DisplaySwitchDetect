@@ -1,0 +1,4 @@
+*.suo
+/.vs
+/DisplaySwitchDetect/bin
+/DisplaySwitchDetect/obj
