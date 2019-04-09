@@ -91,8 +91,6 @@ namespace DisplaySwitchDetect
 
                 if (!_externalMonitorConnected)
                 {
-                    // TODO Switch modes.
-
                     _externalMonitorConnected = true;
                     SwitchState(true);
                 }
@@ -103,8 +101,6 @@ namespace DisplaySwitchDetect
 
                 if (_externalMonitorConnected)
                 {
-                    // TODO Switch modes.
-
                     _externalMonitorConnected = false;
                     SwitchState(false);
                 }
